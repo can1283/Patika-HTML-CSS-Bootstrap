@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo{
+    margin-top: 100px;
+}
+
+.main{
+    width: 90%;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.main .up{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .down{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.main .down .left,.mid,.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main .down .left{
+    background-color: rgb(168, 217, 234);
+    width: 40%;
+}
+
+.main .down .mid{
+    background-color: rgb(129, 182, 200);
+    width: 20%;
+}
+
+.main .down .right{
+    background-color: rgb(112, 198, 227);
+    width: 40%;
+}
